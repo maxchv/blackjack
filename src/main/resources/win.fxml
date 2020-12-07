@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.itstep.AppController">
+   <children>
+      <Button layoutX="510.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClicked" text="Button" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="400.0" layoutX="-2.0" stroke="BLACK" strokeType="INSIDE" width="321.0" />
+      <Label fx:id="label" layoutX="522.0" layoutY="26.0" text="Label" />
+   </children>
+</Pane>
